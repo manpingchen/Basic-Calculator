@@ -1,0 +1,9 @@
+*{ margin: 0; padding: 0; line-height: 3em; font-size: 1em; font-family:'Courier New', Courier, monospace;}
+body{ height: 100vh; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center}
+input, button, select, #answer{ cursor: pointer; color: #fff; border-radius: 0; display: block; -webkit-appearance: none; outline: none; border: 0; width: 200px; text-align: center;text-align-last: center;}
+input{ background-color: orchid}
+input#num2{background-color:coral;}
+select{ background-color: sandybrown}
+input::placeholder{color: #fff;}
+button{ background-color: rosybrown}
+#answer{ background: saddlebrown; height: 48px;}
